@@ -1,6 +1,11 @@
 // Tests
 const s = 'abcabcdbb';
 
+/**
+ * Given a string, find the length of the longest substring without repeating characters.
+ * @param  {string} s
+ * @return {number}
+ */
 function lengthOfLongestSubstring(s) {
   let longest = 0;
   let len = s.length;
